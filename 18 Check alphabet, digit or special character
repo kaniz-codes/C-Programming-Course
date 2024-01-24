@@ -2,9 +2,9 @@
 #include<stdio.h>
 int main()
 {
- int A;
+ char A;
  printf("Input= ");
- scanf("%d", &A);
+ scanf("%c", &A);
 
 
  if(A>=65 && 90>=A)
@@ -22,7 +22,7 @@ int main()
  }
  else
  {
-     printf("Special cherecter");
+     printf("Special character");
  }
  printf("\nKaniz 154\n");
 }
